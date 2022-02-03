@@ -7,10 +7,15 @@ body {
     height: 100%;
 }
 
+header {
+    height: 10%;
+}
+
 .flex-container__item {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
 .flex-item {
@@ -21,6 +26,48 @@ body {
 
 .nav-1 {
     width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    border: 5px solid black;
+    height: 15%;
+    width: 15%;
+}
+
+.nav-h1 {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-setupp {
+    height: 100%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.nav-box-box {
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.nav-box {
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.nav-box-text {
+
+    border: 2px solid black;
     display: flex;
     justify-content: center;
 }
