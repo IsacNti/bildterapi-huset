@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,20 +15,22 @@
 
 
     <div class="topnav">
-        <a href="startsida.html" class="active">Bildterapihuset </a>
+        <a href="index.html" class="active">Bildterapihuset </a>
         <div id="myLinks">
-            <a href="startsida.html">Startsida</a>
+            <a href="index.html">Startsida</a>
             <a href="boka.html">Boka tid</a>
             <a href="kontakta.html">Kontakta oss</a>
             <a href="informtation.html">Information</a>
         </div>
-        <button class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></button>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
         
         </div>
         
         <div style="padding-left:16px" class="div-knapp">
             <div class="knappar-mitt">
-                <button class="button button4"><a href="boka.html" style="color: white">Boka tid</a></button>
+                <a class="button button4" href="boka.html" style="color: white">Boka tid</a>
                 </div>
                 <div class="knappar-mitt">
                     <button class="button button4"><a href="informtation.html" style="color: white">Information</a></button>
@@ -38,7 +40,16 @@
                 </div>
             </div>
                         
-        <script src="js/main.js" ></script>
-
+        
+            <script>
+                function myFunction() {
+                  var x = document.getElementById("myLinks");
+                  if (x.style.display === "block") {
+                    x.style.display = "none";
+                  } else {
+                    x.style.display = "block";
+                  }
+                }
+                </script>
 </body>
 </html>

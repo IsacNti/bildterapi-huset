@@ -1,9 +1,11 @@
 html {
     height: 100%;
+    margin: 0rem;
 }
 
 body {
     height: 100%;
+    margin: 0rem;
 }
 
 .mobile-container {
@@ -46,6 +48,11 @@ body {
     background-color: #ddd;
     color: black;
 }
+
+.div-text-color {
+    color:black;
+}
+
   
 .active {
     background-color: #9440EE;
